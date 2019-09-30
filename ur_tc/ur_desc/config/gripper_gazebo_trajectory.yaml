@@ -1,0 +1,18 @@
+hand_controller:
+  gains:
+    gripper_finger1_joint:
+      p: 10.0 
+  type: position_controllers/JointTrajectoryController
+  joints: [gripper_finger1_joint]
+  allow_partial_joints_goal: true
+
+# gazebo_ros_control/pid_gains:
+  # shoulder_pan_joint: {p: 10000, i: 1, d: 0.01}
+  # shoulder_lift_joint: {p: 10000, i: 1, d: 0.01}
+  # elbow_joint: {p: 10000, i: 1, d: 0.01}
+  # wrist_1_joint: {p: 10000, i: 1, d: 0.01}
+  # wrist_2_joint: {p: 10000, i: 1, d: 0.01}
+  # wrist_3_joint: {p: 10000, i: 1, d: 0.01}s
+  # gripper_finger1_joint: {p: 1, i: 0, d: 0}
+# /gazebo_ros_control/pid_gains/: 
+#   gripper_finger1_joint: {p: 200, i: 0.01, d: 0.001}
