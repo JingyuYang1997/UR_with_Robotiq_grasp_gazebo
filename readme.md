@@ -8,7 +8,7 @@
 
 ```cd YourWorkspace/src```
 
-``` git https://github.com/JingyuYang1997/UR_with_Robotiq_grasp_gazebo.git```
+``` git clone https://github.com/JingyuYang1997/UR_with_Robotiq_grasp_gazebo.git```
 
 ```cd ../.. ```
 
