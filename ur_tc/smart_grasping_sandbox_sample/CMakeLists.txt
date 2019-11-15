@@ -10,7 +10,6 @@ project(smart_grasping_sandbox_sample)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   ur_desc
-  urwh85_moveit_config
 )
 
 ## System dependencies are found with CMake's conventions
